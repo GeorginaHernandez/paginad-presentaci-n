@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Pau Martí, Profesor de Inteligencia Artificial y creador de proyectos digitales.">
+    <title>Portfolio Express - Pau Martí</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">PM.</a>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Principal -->
+    <header class="hero">
+        <div class="container hero-content reveal">
+            <h1 class="hero-title">Hola, soy <span class="gradient-text">Pau Martí</span></h1>
+            <p class="hero-subtitle">Profesor de Inteligencia Artificial y creador de proyectos digitales</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar</a>
+            </div>
+        </div>
+        <!-- Elementos decorativos de fondo -->
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </header>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Sobre mí</h2>
+            <div class="about-content reveal">
+                <div class="about-text">
+                    <p>Soy un apasionado de la tecnología y la educación. Mi objetivo es democratizar el acceso a la Inteligencia Artificial y ayudar a profesionales y empresas a integrar herramientas digitales en su día a día.</p>
+                    <p>Con experiencia tanto en desarrollo tecnológico como en formación, combino lo mejor de ambos mundos para crear soluciones efectivas y enseñar cómo aprovecharlas al máximo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title reveal">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="card skill-card reveal">
+                    <div class="card-icon"><i data-lucide="brain-circuit"></i></div>
+                    <h3>Inteligencia Artificial</h3>
+                    <p>Implementación de modelos, machine learning y herramientas generativas para optimizar procesos.</p>
+                </div>
+                <div class="card skill-card reveal">
+                    <div class="card-icon"><i data-lucide="bot"></i></div>
+                    <h3>Automatizaciones</h3>
+                    <p>Creación de flujos de trabajo eficientes utilizando herramientas no-code y scripts a medida.</p>
+                </div>
+                <div class="card skill-card reveal">
+                    <div class="card-icon"><i data-lucide="smartphone"></i></div>
+                    <h3>Creación de apps</h3>
+                    <p>Desarrollo de aplicaciones web y móviles modernas, responsivas y centradas en el usuario.</p>
+                </div>
+                <div class="card skill-card reveal">
+                    <div class="card-icon"><i data-lucide="graduation-cap"></i></div>
+                    <h3>Formación online</h3>
+                    <p>Diseño e impartición de cursos y mentorías sobre tecnología, programación e Inteligencia Artificial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="card project-card reveal">
+                    <div class="project-image project-img-1"></div>
+                    <div class="project-info">
+                        <h3>Plataforma de Cursos IA</h3>
+                        <p>Academia online con integración de asistente virtual basado en IA para resolver dudas de alumnos 24/7.</p>
+                        <a href="#" class="btn btn-outline btn-sm">Ver más</a>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="card project-card reveal">
+                    <div class="project-image project-img-2"></div>
+                    <div class="project-info">
+                        <h3>Bot de Automatización</h3>
+                        <p>Sistema que automatiza la recopilación de datos y generación de reportes ahorrando 20h semanales a sus usuarios.</p>
+                        <a href="#" class="btn btn-outline btn-sm">Ver más</a>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="card project-card reveal">
+                    <div class="project-image project-img-3"></div>
+                    <div class="project-info">
+                        <h3>App de Productividad</h3>
+                        <p>Aplicación móvil PWA para la gestión de tareas con priorización inteligente de objetivos diarios.</p>
+                        <a href="#" class="btn btn-outline btn-sm">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section bg-light">
+        <div class="container contact-container reveal">
+            <h2 class="section-title">¿Trabajamos juntos?</h2>
+            <p class="contact-text">Si tienes un proyecto en mente o quieres aprender más sobre cómo la IA puede ayudarte, no dudes en escribirme.</p>
+            <a href="mailto:hola@paumarti.com" class="btn btn-primary btn-lg">Contactar</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Pau Martí. Portfolio Express.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
